@@ -1,0 +1,112 @@
+html {
+	font-family: Roboto, sans-serif;
+}
+
+.header {
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: #1F2937;
+}
+
+.header-logo {
+
+}
+
+.top-links {
+	font-weight: bold;
+}
+
+.first-body {
+	display: flex;
+	background-color: #1F2937;
+	color: white;
+	padding: 50px;
+}
+
+.hero-secondary-text {
+	opacity: 0.7;
+	width: 300px;
+}
+
+.right-side {
+	margin-left: auto;
+	margin-right: 100px;
+	align-self: center;
+	background-color: grey;
+	padding: 50px;
+}
+
+.second-body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px;
+}
+
+.second-body-blocks {
+	display: flex;
+	text-align: center;
+}
+
+.block-one,
+.block-two,
+.block-three,
+.block-four {
+	width: 100px;
+	padding: 50px;
+}
+
+.block-one-block,
+.block-two-block,
+.block-three-block,
+.block-four-block {
+	padding: 50px;
+	border: solid;
+	border-color: blue;
+}
+
+.third-body {
+	background: grey;
+	padding: 100px;
+}
+
+.quote {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	text-align: left;
+}
+
+figcaption {
+	align-self: flex-end;
+}
+
+.fourth-body {
+	padding: 50px;
+}
+
+.fourth-body-block {
+	background: cyan;
+	display: flex;
+	justify-content: space-around;
+	line-height: 0.5;
+	padding: 30px;
+}
+
+.fourth-body-block button {
+	width: 90px;
+	height: 30px;
+	align-self: center;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #1F2937;
+	color: white;
+	padding: 30px;
+}
