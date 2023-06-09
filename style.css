@@ -108,6 +108,11 @@ h1 {
 	flex-wrap: wrap;
 }
 
+.content-info p{
+	margin-right: 5px;
+	max-width: 250px;
+}
+
 .content-info img {
 	width: 200px;
 	height: 200px;
@@ -118,47 +123,67 @@ h1 {
 }
 
 /*Third Body*/
-
-.third-body {
-	background: grey;
-	padding: 100px;
-}
-
 .quote {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
-	text-align: left;
+	background-color: #E5E7EB;
+	padding: 0 200px;
 }
 
-figcaption {
-	align-self: flex-end;
+.quote p {
+	font-size: 36px;
+	color: #1F2937;
+	font-style: italic;
+	font-weight: lighter;
 }
+
+.quote b {
+	padding-bottom: 20px;
+	padding-right: 10px;
+	text-align: right;
+}
+
+/*Fourth Body*/
 
 .fourth-body {
-	padding: 50px;
+	background-color: #3882F6;
+	margin: 50px 200px;
+	padding: 10px 80px;
+	display: flex;
+	align-items: center;
+	border-radius: 5px;
+	border-color: none;
 }
 
 .fourth-body-block {
-	background: #3882F6;
-	display: flex;
-	justify-content: space-between;
-	padding: 20px 50px;
+	flex: 1;
+	text-align: left;
+}
+
+.fourth-body-block p {
+	color: #fff;
+	opacity: 0.7;
+	margin: 5px 30px 30px 50px;
+}
+
+h3 {
+	color: #fff;
+	padding: 0;
+	margin: 30px 0px 0px 50px;
+}
+
+.sign-button button {
+	color: #fff;
+	border-color: #fff;
 	border-radius: 8px;
-	margin: 90px 50px;
+	background-color: #3882F6;
+	padding: 5px 15px;
+	font-size: 15px;
 }
 
-.fourth-body-block button {
-	width: 90px;
-	height: 30px;
-	align-self: center;
-}
+/*Footer*/
 
-footer {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.footer {
 	background: #1F2937;
-	color: white;
-	padding: 30px;
+	color: #fff;
 }
